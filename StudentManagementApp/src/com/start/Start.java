@@ -4,6 +4,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+import com.start.student.Student;
+import com.start.student.StudentDao;
+
 public class Start {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
@@ -18,6 +21,26 @@ public class Start {
 
 			if (choice == 1) {
 				// Add student
+				System.out.println("Enter students fullname");
+				String name=br.readLine();
+				
+				System.out.println("Enter students Phone no");
+				String phone=br.readLine();
+				
+				System.out.println("Enter students City name");
+				String city=br.readLine();
+				
+				Student student=new Student(name,phone,city);
+				System.out.println(student);
+				boolean answer=StudentDao.addStudentToDB(student);
+				if(answer) {
+					System.out.println("Student data added sucessfully");
+				}
+				else {
+					System.out.println("data not added");
+				}
+				
+				
 			}
 			else if (choice == 2) {
 				// delete student
