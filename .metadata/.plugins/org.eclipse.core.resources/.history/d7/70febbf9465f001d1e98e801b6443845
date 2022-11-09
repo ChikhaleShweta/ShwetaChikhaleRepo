@@ -1,0 +1,5 @@
+package com.learn.oop;
+
+public class Employee {
+	Integer baseSalary=50000;
+}

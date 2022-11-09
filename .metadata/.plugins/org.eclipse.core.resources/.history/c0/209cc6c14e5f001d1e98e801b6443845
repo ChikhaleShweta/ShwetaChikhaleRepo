@@ -1,0 +1,13 @@
+package com.learn.oop;
+
+public class Sales extends Customer {
+	Integer bonus=20000;
+	Integer incentive=1000;
+	public static void main(String[] args) {
+	
+Sales sales=new Sales();
+sales.TotalSalry(sales.bonus, sales.baseSalary);
+sales.TotalSalry(sales.bonus, sales.baseSalary,sales.incentive);
+	}
+
+}

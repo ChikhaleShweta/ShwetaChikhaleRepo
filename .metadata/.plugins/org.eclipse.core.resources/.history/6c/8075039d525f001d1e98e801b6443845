@@ -1,0 +1,8 @@
+package com.learn.oop;
+
+public class Student {
+	Integer id;
+	String name;
+	Address address;
+
+}

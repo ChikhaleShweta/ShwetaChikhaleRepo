@@ -1,0 +1,20 @@
+package com.learn.oop;
+
+public class Sales extends Customer {
+	Integer bonus = 20000;
+	Integer incentive = 1000;
+	
+	void working() {
+		System.out.println("Employee is part of Sales Dept and they are  working");
+	}
+
+	public static void main(String[] args) {
+
+		Sales sales = new Sales();
+		sales.TotalSalry(sales.bonus, sales.baseSalary);
+		sales.TotalSalry(sales.bonus, sales.baseSalary, sales.incentive);
+		
+		sales.working();
+	}
+
+}

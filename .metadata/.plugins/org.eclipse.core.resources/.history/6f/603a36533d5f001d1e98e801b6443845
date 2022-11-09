@@ -1,0 +1,21 @@
+package com.learn.oop;
+
+public class TV {
+	//defined the field for a tv
+	 String brand;
+	 String modelName;
+	 Integer screenSize;
+	 Integer price;
+	 String color;
+	 String displayType;
+	  
+	 
+
+	public static void main(String[] args) {
+		TV lgOled=new TV();
+		TV samsungFrame=new TV();//Creating objects/instances from the class
+		
+		
+	}
+
+}

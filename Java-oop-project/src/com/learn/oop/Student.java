@@ -1,0 +1,29 @@
+package com.learn.oop;
+
+public class Student {//Aggregation(Student+Address)
+	Integer id;
+	String name;
+	Address address;
+
+	public void addStudent(Integer id, String name, Address address) {
+		this.id = id;
+		this.name = name;
+		this.address = address;
+	}
+
+	public void displayStudent() {
+		System.out.println(name + "," + address.city + "," + address.state);
+	}
+
+	public static void main(String[] args) {
+		Address address = new Address("pune", "Maharashtra", "India");
+
+		Student student = new Student();
+
+		student.addStudent(101, "shweta", address);
+
+		student.displayStudent();
+
+	}
+
+}

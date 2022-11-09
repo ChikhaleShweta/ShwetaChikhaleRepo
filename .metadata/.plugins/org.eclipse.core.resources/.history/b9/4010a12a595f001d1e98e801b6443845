@@ -1,0 +1,10 @@
+package com.learn.oop.encapsulation;
+
+public class Yamaha {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

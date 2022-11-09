@@ -1,0 +1,15 @@
+package com.learn.oop;
+
+public class Customer {
+
+	Integer baseSalary=50000;
+	 void TotalSalry(Integer bs,Integer bonus) {
+		 Integer total=bs+bonus;
+		 System.out.println(total);
+	 }
+	 void TotalSalry(Integer bs,Integer bonus,Integer incentive) {
+		 Integer total=bs+bonus+incentive;
+		 System.out.println(total);
+	 }
+
+}

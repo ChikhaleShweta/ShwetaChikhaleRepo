@@ -1,0 +1,18 @@
+package com.learn.oop.collection;
+
+import java.util.ArrayList;
+
+public class ArrayListDemo {
+
+	public static void main(String[] args) {
+	ArrayList<String> participantList=new ArrayList<>();
+	participantList.add("shweta");
+	participantList.add("nikhil");
+	participantList.add("pallavi");
+	participantList.add("rani");
+	
+	System.out.println(participantList);
+
+	}
+
+}

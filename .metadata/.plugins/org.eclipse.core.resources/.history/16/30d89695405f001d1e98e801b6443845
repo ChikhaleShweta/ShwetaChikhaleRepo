@@ -1,0 +1,28 @@
+package com.learn.oop;
+
+public class TV {
+	//defined the field for a tv
+	 String brand;
+	 String modelName;
+	 Integer screenSize;
+	 Integer price;
+	 String color;
+	 String displayType;
+	  
+	 
+
+	public static void main(String[] args) {
+		TV lgOled=new TV();
+		TV samsungFrame=new TV();//Creating objects/instances from the class
+		
+		lgOled.brand="LG";
+		lgOled.modelName="4k oled 75' tv";
+		lgOled.screenSize=50;
+		lgOled.price=100000;
+		lgOled.color="black";
+		lgOled.displayType="OLED";
+		
+		System.out.println(lgOled.brand+","+lgOled.modelName+","+lgOled.screenSize);
+	}
+
+}
