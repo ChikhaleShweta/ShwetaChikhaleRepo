@@ -44,9 +44,25 @@ public class Start {
 			}
 			else if (choice == 2) {
 				// delete student
+				System.out.println("Enter student id to delete");
+				Integer studentId=Integer.parseInt(br.readLine());
+				boolean ans1=StudentDao.deleteStudent(studentId);
+				if(ans1) {
+					System.out.println("Student data deleted successfully");
+				}else {
+					System.out.println("Student data not deleted");
+					
+				}
 			}
 			else if (choice == 3) {
 				// display student
+				boolean ans1=StudentDao.getAllStudents();
+				if(ans1) {
+					System.out.println("Student data retrived successfully");
+				}else {
+					System.out.println("Student data not retrived");
+					
+				}
 
 			}
 			else if (choice == 4) {
