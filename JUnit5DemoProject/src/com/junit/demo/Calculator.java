@@ -9,8 +9,8 @@ public class Calculator {
 			int total= num1+num2;
 			return total;
 		}
-		public int sub(int num1,int num2) {
-			int total=num1-num2;
+		public int sub(int num11,int num22) {
+			int total=num11-num22;
 			return total;
 		}
 		public int product(int num1,int num2) {
