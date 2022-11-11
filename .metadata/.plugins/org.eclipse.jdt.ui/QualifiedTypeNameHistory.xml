@@ -14,7 +14,6 @@
     <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="com.start.student.StudentDao"/>
-    <fullyQualifiedTypeName name="com.mysql.cj.protocol.Resultset"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="com.learn.oop.collection.LinkedHashSet"/>
@@ -27,4 +26,25 @@
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="javax.swing.filechooser.FileNameExtensionFilter"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.DisplayName"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
+    <fullyQualifiedTypeName name="com.junit.demo.Calculator"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.AfterEach"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.params.provider.ValueSource"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.params.provider.EnumSource"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.params.provider.MethodSource"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.params.ParameterizedTest"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.params.provider.CsvSource"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.register.login.User"/>
+    <fullyQualifiedTypeName name="com.register.login.RegisterUser"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.protocol.Resultset"/>
+    <fullyQualifiedTypeName name="com.register.login.LoginUser"/>
+    <fullyQualifiedTypeName name="com.tweet.Post"/>
+    <fullyQualifiedTypeName name="com.tweet.PostTweet"/>
+    <fullyQualifiedTypeName name="com.tweet.ViewAllTweets"/>
+    <fullyQualifiedTypeName name="com.register.login.ViewAllUsers"/>
+    <fullyQualifiedTypeName name="com.tweet.ViewMyTweets"/>
+    <fullyQualifiedTypeName name="com.connection.ConnectionProvider"/>
+    <fullyQualifiedTypeName name="com.password.ForgetPassword"/>
 </qualifiedTypeNameHistroy>
